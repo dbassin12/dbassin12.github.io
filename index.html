@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>David Bassin | Teacher who builds learning tools with AI</title>
-<meta name="description" content="David Bassin teaches AP Macroeconomics and Global History and builds learning tools with AI: review games, short history videos, IEP worksheets, and time savers for teachers. He checks every fact before it reaches a student.">
+<meta name="description" content="David Bassin teaches 106 students a year in AP Macroeconomics and Global History, plans each school year end to end, builds the review games his students play, and leads AI training for the teachers at his school.">
 <meta name="author" content="David Bassin">
 <link rel="canonical" href="https://dbassin12.github.io/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://dbassin12.github.io/">
 <meta property="og:title" content="David Bassin | Teacher who builds learning tools with AI">
-<meta property="og:description" content="I teach high school, and I build what my students use. Games, videos, and IEP worksheets made with AI and checked by a teacher.">
+<meta property="og:description" content="I teach high school, and I build what my students use: whole-year plans, review games, and AI training for teachers.">
 <meta property="og:image" content="https://dbassin12.github.io/img/social-card.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FDFCF9">
@@ -280,8 +280,18 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
 .facts li{font:600 13px/1 var(--display);color:var(--plum);background:var(--linen);border:1px solid var(--line-soft);border-radius:999px;padding:7px 11px}
 .card .links-row{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:auto;padding-top:8px}
 .card .tl{font-size:15px}
+.card.text-card{background:var(--plum);border-color:var(--plum)}
+.card.text-card h3{color:var(--cream)}
+.card.text-card p{color:#D8D1DD}
+.card.text-card .kicker{color:var(--copper-light)}
+.card.text-card .tl{color:var(--copper-light);border-bottom-color:rgba(212,154,104,.4)}
+.card.text-card .tl::after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23D49A68' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.5 8h10M8.5 4l4 4-4 4'/%3E%3C/svg%3E")}
+.did{display:grid;gap:10px;margin-top:6px}
+.did li{display:flex;gap:10px;align-items:baseline;font-size:16px;color:var(--cream)}
+.did li::before{content:"";flex:none;width:14px;height:10px;transform:translateY(1px);background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 10' fill='none' stroke='%23D49A68' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1.5 5.2 5 8.5l7.5-7'/%3E%3C/svg%3E") center/contain no-repeat}
 .more{margin-top:16px;display:grid;gap:12px}
-@media (min-width:900px){.more{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:640px){.more{grid-template-columns:1fr 1fr}}
+@media (min-width:1000px){.more{grid-template-columns:repeat(4,1fr)}}
 .more li{background:rgba(253,252,249,.6);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
 .more h3{font-size:16.5px;letter-spacing:-.015em}
 .more p{margin-top:6px;font-size:15px;line-height:1.6}
@@ -319,7 +329,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
 /* the lab */
 .lab-grid{display:grid;gap:14px}
 @media (min-width:640px){.lab-grid{grid-template-columns:1fr 1fr}}
-@media (min-width:1000px){.lab-grid{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:1000px){.lab-grid{grid-template-columns:repeat(3,1fr)}}
 .lab-grid li{border:1px solid rgba(253,252,249,.13);background:rgba(253,252,249,.04);border-radius:18px;padding:22px}
 .lab-grid h3{font-size:18px;letter-spacing:-.02em}
 .lab-grid p{margin-top:8px;font-size:15.5px;line-height:1.65;color:#D8D1DD}
@@ -373,7 +383,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
 }
 @keyframes rise{to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important;transition-delay:0s!important;scroll-behavior:auto!important}
 }
 </style>
 </head>
@@ -405,7 +415,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
   <div>
     <p class="pill ld" style="--d:0"><i aria-hidden="true"></i>AP Macroeconomics and Global History teacher</p>
     <h1 id="hero-title" class="ld" style="--d:1">I teach high school, <span class="l2">and I build what my students use.</span></h1>
-    <p class="lede ld" style="--d:2">I design learning tools with AI: seven AP Macro games, a 3D review game, short history videos, and an IEP version of every worksheet. I check every fact before it reaches a student, and I coach teachers on my school's AI Task Force.</p>
+    <p class="lede ld" style="--d:2">I teach 106 students a year in AP Macroeconomics and Global History. I plan each school year end to end, build the review games my students play, and lead AI at my school with faculty demos and one-on-one coaching. Outside school, I build AI tools for small businesses.</p>
     <div class="ctas ld" style="--d:3">
       <a class="btn btn-primary" href="#work">See my work</a>
       <details class="resume-menu">
@@ -419,7 +429,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <ul class="creds ld" style="--d:4">
       <li>In classrooms since 2016</li>
       <li>M.S. in Education, Pace University</li>
-      <li>AI Task Force member</li>
+      <li>106 students a year</li>
     </ul>
   </div>
   <div class="deck" id="deck">
@@ -445,18 +455,20 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     </div>
   </div>
   <ol class="needs" id="needs-edtech" role="tabpanel" aria-labelledby="lens-edtech">
-    <li style="--n:0"><h3>Knows what works with real students</h3><p>In classrooms since 2016. I teach AP Macroeconomics and Global History, and I make an IEP version of every worksheet I hand out.</p></li>
-    <li style="--n:1"><h3>Builds with AI and ships</h3><p>Seven AP Macro games, a 3D review game with 213 voiced lines, four short history videos, and tools that two small-business owners used. <a href="#work">See the work</a></p></li>
-    <li style="--n:2"><h3>Checks AI output like a grader</h3><p>I check every fact and every picture. As a first reader on 87 essays, AI scored one a 79 that earned a 96. That is why I check every score.</p></li>
-    <li style="--n:3"><h3>Teaches people who are not technical</h3><p>I coach teachers on my school's AI Task Force, and I wrote a one-hour workshop plan. Two small-business owners say I showed them how their tools work. <a href="#words">Read what they said</a></p></li>
-    <li style="--n:4"><h3>Careful with student data</h3><p>Student names come out before anything goes to AI. The Econ Arcade has no accounts, and scores stay on the device.</p></li>
+    <li style="--n:0"><h3>Knows what works with real students</h3><p>In classrooms since 2016. I teach 106 students a year in AP Macroeconomics and Global History, and I design both courses.</p></li>
+    <li style="--n:1"><h3>Designs curriculum end to end</h3><p>I plan each school year with AI: every AP Macro topic on a named class day, tests on the school's exam days, and sub-ready plans for sick days.</p></li>
+    <li style="--n:2"><h3>Builds with AI and ships</h3><p>Seven AP Macro games, a whole-class trading-floor game, a 3D review game with 213 voiced lines, and AI tools that two small-business owners used. <a href="#work">See the work</a></p></li>
+    <li style="--n:3"><h3>Checks AI output like a grader</h3><p>As a first reader on 87 essays, AI scored one a 79 that earned a 96. I check every score, every fact, and every number before it reaches a student.</p></li>
+    <li style="--n:4"><h3>Teaches people who are not technical</h3><p>I run AI demos for my whole faculty and coach teachers one-on-one. Two small-business owners say I showed them how their tools work. <a href="#words">Read what they said</a></p></li>
+    <li style="--n:5"><h3>Careful with student data</h3><p>Student names come out before anything goes to AI. The Econ Arcade has no accounts, and scores stay on the device.</p></li>
   </ol>
   <ol class="needs" id="needs-school" role="tabpanel" aria-labelledby="lens-school" hidden>
-    <li style="--n:0"><h3>Gets teachers using AI well</h3><p>On my school's AI Task Force, I coach teachers in group demos and one-on-one. I wrote a hands-on workshop plan, and a step-by-step guide so colleagues can build their own year calendar with AI.</p></li>
-    <li style="--n:1"><h3>Helps write the rules</h3><p>I helped write our school's AI guidelines. My sample guidelines cover rules for students and teachers and a privacy check before any new tool. <a href="ai-guidelines/">Read the sample</a></p></li>
-    <li style="--n:2"><h3>Saves teachers time</h3><p>Progress reports in 85% less time. Essay grading in 63% less time. Grades go from Schoology to Veracross without retyping, and the whole year sits on one pacing calendar.</p></li>
-    <li style="--n:3"><h3>Protects students</h3><p>Names come out first, my games have no student accounts, and every fact and picture is checked before class.</p></li>
-    <li style="--n:4"><h3>Works in the systems you already use</h3><p>Schoology, Veracross, and Google Workspace. Tools that run on shared Chromebooks and print in black and white.</p></li>
+    <li style="--n:0"><h3>Gets teachers using AI well</h3><p>On my school's AI Task Force, I run demos for the whole faculty and coach teachers one-on-one. I also wrote a step-by-step guide so colleagues can build their own year calendar with AI.</p></li>
+    <li style="--n:1"><h3>Helps write the rules</h3><p>I helped write our school's AI rules. My sample guidelines cover students, teachers, and a privacy check before any new tool. <a href="ai-guidelines/">Read the sample</a></p></li>
+    <li style="--n:2"><h3>Plans whole years</h3><p>Every class meeting of the year on one calendar, tests on the school's exam days, and sub-ready plans for sick days, for both of my courses.</p></li>
+    <li style="--n:3"><h3>Saves teachers time</h3><p>Progress report comments in 85% less time. Essay first reads in 63% less time. Grades go from Schoology to Veracross without retyping.</p></li>
+    <li style="--n:4"><h3>Protects students</h3><p>Names come out first, my games have no student accounts, and every fact is checked before class.</p></li>
+    <li style="--n:5"><h3>Works in the systems you already use</h3><p>Schoology, Veracross, and Google Workspace. Tools that run on shared Chromebooks and print in black and white.</p></li>
   </ol>
 </section>
 
@@ -499,52 +511,46 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
       </div>
     </article>
     <article class="card span-3" data-rv style="--i:1">
-      <div class="films" aria-hidden="true">
-        <img src="img/road-to-1789-800.webp" width="800" height="450" alt="" loading="lazy" decoding="async">
-        <img src="img/bastille-800.webp" width="800" height="450" alt="" loading="lazy" decoding="async">
-        <img src="img/reign-of-terror-800.webp" width="800" height="450" alt="" loading="lazy" decoding="async">
-      </div>
+      <div class="shot light pad"><img src="img/pacing-calendar-800.webp" srcset="img/pacing-calendar-800.webp 800w, img/pacing-calendar.webp 1110w" sizes="(min-width:1000px) 540px, (min-width:640px) 45vw, 94vw" width="1110" height="510" alt="Global History 10 pacing calendar for September and October, with each class day labeled by unit and lesson" loading="lazy" decoding="async"></div>
       <div class="card-body">
-        <p class="kicker">Global History</p>
-        <h3>Short videos for the French Revolution unit</h3>
-        <p>Four short videos made with AI tools from historical paintings, prints, and maps. Captions on screen, every picture credited, and graphic moments flagged for teachers. The Road to 1789 runs about six minutes and uses 47 pictures.</p>
-        <ul class="facts"><li>4 videos</li><li>Every picture credited</li><li>Notes for teachers</li></ul>
-        <div class="links-row"><a class="tl" href="https://dbassin12.github.io/history-videos/">Watch the videos</a></div>
+        <p class="kicker">Curriculum design</p>
+        <h3>Every school year, planned end to end</h3>
+        <p>Global History 10: 127 class meetings on one calendar, with tests on the school's exam days and a tracker for sick days. AP Macro: all 42 College Board topics on a named class day, with sub-ready plans. I build both with AI and keep them current all year.</p>
+        <ul class="facts"><li>127 class meetings</li><li>42 of 42 AP topics</li><li>Sub-ready days</li></ul>
       </div>
     </article>
     <article class="card span-2" data-rv>
-      <div class="sheets">
-        <figure><figcaption>Regular</figcaption><img src="img/worksheet-regular-480.webp" width="480" height="391" alt="Regular worksheet with the original source beside a modified version" loading="lazy" decoding="async"></figure>
-        <figure><figcaption>IEP version</figcaption><img src="img/worksheet-iep-480.webp" width="480" height="396" alt="IEP version of the same lesson in short boxed parts with stop-and-check questions" loading="lazy" decoding="async"></figure>
-      </div>
-      <div class="card-body">
-        <p class="kicker">Every student</p>
-        <h3>An IEP version of every worksheet</h3>
-        <p>Bigger type, more space, shorter chunks, and sentence starters, with each primary source beside a readable version. The thinking stays the same.</p>
-      </div>
-    </article>
-    <article class="card span-2" data-rv style="--i:1">
       <div class="shot light pad"><img src="img/preshoah-800.webp" width="800" height="500" alt="Project page for the Pre-Shoah Jewish Communities research project" loading="lazy" decoding="async"></div>
       <div class="card-body">
-        <p class="kicker">Global History, research</p>
+        <p class="kicker">Global History</p>
         <h3>A research project with honest AI rules</h3>
         <p>Four days, four research roles, a source bank, and a rubric. Students may use AI to present their work, not to do it, and a Q&amp;A checks that they understand every slide.</p>
         <div class="links-row"><a class="tl" href="https://dbassin12.github.io/David-Bassin-s-Portfilio/preshoah.html">See the project page</a></div>
       </div>
     </article>
-    <article class="card span-2" data-rv style="--i:2">
+    <article class="card span-2" data-rv style="--i:1">
       <div class="shot light pad"><img src="img/cocoa-slide-800.webp" width="800" height="450" alt="Lesson slide: real world, cocoa and your chocolate bar, with a price chart" loading="lazy" decoding="async"></div>
       <div class="card-body">
         <p class="kicker">AP Macroeconomics</p>
-        <h3>A year planned backward from the exam</h3>
-        <p>All 42 College Board topics on a named day, 16 new lesson decks on real events and data, and AP-style quizzes with answer keys.</p>
+        <h3>Lessons built on real events</h3>
+        <p>16 new lesson decks on real events and FRED data, and AP-style quizzes with answer keys, all planned backward from the May exam.</p>
+      </div>
+    </article>
+    <article class="card span-2 text-card" data-rv style="--i:2">
+      <div class="card-body">
+        <p class="kicker">At my school</p>
+        <h3>Leading AI with my colleagues</h3>
+        <p>On the AI Task Force, I help the whole faculty use AI well.</p>
+        <ul class="did"><li>Demos for the whole faculty</li><li>One-on-one coaching</li><li>Helped write our AI rules</li><li>A staff guide for year calendars</li></ul>
+        <div class="links-row"><a class="tl" href="ai-workshop/">Workshop plan</a><a class="tl" href="ai-guidelines/">Sample guidelines</a></div>
       </div>
     </article>
   </div>
   <ul class="more">
-    <li data-rv><h3>Mo's Big Dig</h3><p>A talking 3D Earth for ages 3 to 5. Every line is spoken, and each voice line is checked with speech recognition.</p><a class="tl" href="https://dbassin12.github.io/mos-big-dig/">Play it</a></li>
-    <li data-rv style="--i:1"><h3>AP Macro Unit 4 review game</h3><p>47 practice questions and 25 short lessons on the financial sector, in one browser game.</p><a class="tl" href="https://dbassin12.github.io/Macro-Unit-4-Game/">Play it</a></li>
-    <li data-rv style="--i:2"><h3>A Regents question bank</h3><p>Past Global History Regents exams turned into a searchable question bank with a test builder. A prototype on my own computer.</p></li>
+    <li data-rv><h3>AP Macro Unit 4 review game</h3><p>47 practice questions and 25 short lessons on the financial sector, in one browser game.</p><a class="tl" href="https://dbassin12.github.io/Macro-Unit-4-Game/">Play it</a></li>
+    <li data-rv style="--i:1"><h3>A Regents question bank</h3><p>Past Global History Regents exams turned into a searchable question bank with a test builder. A prototype on my own computer.</p></li>
+    <li data-rv style="--i:2"><h3>Short history videos</h3><p>Four narrated videos for my French Revolution unit, made with AI tools, with every picture credited.</p><a class="tl" href="https://dbassin12.github.io/history-videos/">Watch them</a></li>
+    <li data-rv style="--i:3"><h3>Mo's Big Dig</h3><p>A talking 3D Earth for ages 3 to 5. Every line is spoken and checked with speech recognition.</p><a class="tl" href="https://dbassin12.github.io/mos-big-dig/">Play it</a></li>
   </ul>
 </section>
 
@@ -553,7 +559,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <div>
       <p class="label">How I work</p>
       <h2 id="how-title"><span>AI drafts.</span> <span>I decide.</span></h2>
-      <p class="sub" style="margin-top:22px">AI makes the first version of the game, the video, or the worksheet. It is fast, and it is a starting point. A teacher makes the call.</p>
+      <p class="sub" style="margin-top:22px">AI makes the first version of the plan, the game, or the worksheet. It is fast, and it is a starting point. A teacher makes the call.</p>
       <div class="check-wrap" id="check-wrap" data-rv>
       <div class="check" id="check" role="group" aria-label="Examples of how I check AI's work">
         <div class="check-top">
@@ -579,7 +585,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <ul class="principles">
       <li data-rv><svg class="mark-line" viewBox="0 0 30 12" aria-hidden="true" focusable="false"><path d="M2 8C8 5 14 4 28 3"/></svg><h3>Start with the job</h3><p>What does the person need at the end? A student needs to explain a graph on the test. That comes first, not the tool.</p></li>
       <li data-rv style="--i:1"><svg class="mark-line" viewBox="0 0 30 12" aria-hidden="true" focusable="false"><path d="M2 8C8 5 14 4 28 3"/></svg><h3>Check it like a grader</h3><p>I check facts against real sources, and I check every number and every picture. Nothing goes out before that.</p></li>
-      <li data-rv style="--i:2"><svg class="mark-line" viewBox="0 0 30 12" aria-hidden="true" focusable="false"><path d="M2 8C8 5 14 4 28 3"/></svg><h3>Build for the people using it</h3><p>IEP versions and spoken narration for students. For everyone: it works on a phone, prints in black and white, and fits the systems people already use.</p></li>
+      <li data-rv style="--i:2"><svg class="mark-line" viewBox="0 0 30 12" aria-hidden="true" focusable="false"><path d="M2 8C8 5 14 4 28 3"/></svg><h3>Build for the people using it</h3><p>Spoken lines and big type when students need them. For everyone: it works on a phone, prints in black and white, and fits the systems people already use.</p></li>
       <li data-rv style="--i:3"><svg class="mark-line" viewBox="0 0 30 12" aria-hidden="true" focusable="false"><path d="M2 8C8 5 14 4 28 3"/></svg><h3>Leave the thinking to people</h3><p>The tool does the busywork. Students still draw the graph and write the why. People still make the call.</p></li>
     </ul>
   </div>
@@ -630,7 +636,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <h2 id="teaching-title">I help other teachers use AI well.</h2>
   </div>
   <div class="tf" data-rv>
-    <p>On my school's AI Task Force, I coach teachers in group demos and one-on-one, and I helped write our AI guidelines.</p>
+    <p>On my school's AI Task Force, I run demos for the whole faculty, coach teachers one-on-one, and helped write our AI rules.</p>
     <p>I also wrote a step-by-step guide so colleagues can build their own year calendar with AI. These four work samples show how I explain things to teachers.</p>
   </div>
   <div class="samples">
@@ -696,7 +702,9 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <li data-rv><h3>An agent on call<span class="live" aria-hidden="true"></span></h3><p>A personal AI agent I talk to on Discord, with skills it improves over time.</p></li>
     <li data-rv style="--i:1"><h3>A private curriculum chatbot</h3><p>I organized 5,000+ curriculum files and built a chatbot that answers questions from them. It runs on local models, so nothing leaves my computer.</p></li>
     <li data-rv style="--i:2"><h3>20+ scheduled jobs</h3><p>News briefings read aloud each morning, nightly health checks, and more.</p></li>
-    <li data-rv style="--i:3"><h3>Recipes I can reuse</h3><p>When something works, like a history video or a talking explainer, I turn the steps into a reusable AI skill, so the next one starts from a checked recipe.</p></li>
+    <li data-rv style="--i:3"><h3>Recipes I can reuse</h3><p>When something works, like a review game or a talking explainer, I turn the steps into a reusable AI skill, so the next one starts from a checked recipe.</p></li>
+    <li data-rv style="--i:4"><h3>A trading research arena</h3><p>Claude and ChatGPT debate each trade with play money, so I can see how two AI models reason about the same news.</p></li>
+    <li data-rv style="--i:5"><h3>Mission Control</h3><p>One dashboard that tracks every agent and scheduled job, what each one cost, and whether it ran.</p></li>
   </ul>
   <p class="lab-note" data-rv>For the chatbot, I tested AI for sorting the files and went back to plain rules, because they did better.</p>
 </section>
@@ -716,8 +724,8 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
     <div data-rv style="--i:1">
       <p class="mini">Where I have worked</p>
       <ul class="jobs">
-        <li><strong>History and Economics Teacher</strong><span>DRS Yeshiva High School for Boys, Woodmere, NY. 2020 to now. AP Macroeconomics and Global History 10. AI Task Force.</span></li>
-        <li><strong>Founder, Bassin Consulting</strong><span>2025 to now. I offer AI training and tools to schools, and a working teacher's review to ed-tech teams.</span></li>
+        <li><strong>History and Economics Teacher</strong><span>DRS Yeshiva High School for Boys, Woodmere, NY. 2020 to now. 106 students a year in AP Macroeconomics and Global History 10. AI Task Force.</span></li>
+        <li><strong>Founder, Bassin Consulting</strong><span>2025 to now. Practical AI help for schools, ed-tech teams, and small businesses: workshops, coaching, and custom tools.</span></li>
         <li><strong>History and Personal Finance Teacher</strong><span>Yeshivah Lev Torah, Brooklyn. 2018 to 2020.</span></li>
         <li><strong>Special Ed Teaching Assistant</strong><span>Hebrew Academy for Special Children, Brooklyn. 2016 to 2018.</span></li>
         <li><strong>IT Support Specialist</strong><span>M. Shanken Communications, New York. 2013 to 2015.</span></li>
