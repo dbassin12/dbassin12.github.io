@@ -40,8 +40,8 @@ p{margin:0 0 1em}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;align-items:center}
 .nav ul a{font-family:var(--display);font-size:14.5px;font-weight:600;text-decoration:none;color:var(--ink);white-space:nowrap;display:inline-flex;align-items:center;min-height:44px}
 .nav ul a:hover{color:var(--copper-ink)}
-.nav .navbtn{background:var(--copper);color:#fff;padding:0 18px;border-radius:10px;min-height:40px;font-weight:700}
-.nav .navbtn:hover{background:#B26C38;color:#fff}
+.nav .navbtn{background:#AA6332;color:#fff;padding:0 18px;border-radius:10px;min-height:40px;font-weight:700}
+.nav .navbtn:hover{background:var(--copper-ink);color:#fff}
 
 /* document header: a rounded linen panel, like the portfolio */
 .doc-head{margin:clamp(10px,2vw,20px);border-radius:28px;background:var(--linen);border:1px solid rgba(42,37,48,.06);padding:clamp(48px,7vw,88px) 0 clamp(32px,4vw,48px)}
