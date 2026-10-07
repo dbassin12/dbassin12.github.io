@@ -131,7 +131,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
 .hero h1{margin-top:24px;font-size:clamp(40px,4.9vw,58px);font-weight:800;letter-spacing:-.045em;line-height:1.03}
 .hero h1 .l2{display:block;color:var(--copper)}
 .hero .lede{margin-top:26px;font-size:clamp(18px,1.7vw,21px);line-height:1.6;color:var(--plum);max-width:32em}
-.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px;position:relative;z-index:6}
 .creds{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:26px;font:600 14.5px/1.4 var(--display);color:var(--muted)}
 .creds li{display:flex;align-items:center;gap:8px}
 .creds li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--copper)}
@@ -178,7 +178,7 @@ h2{font-size:clamp(30px,4.2vw,46px);font-weight:800;letter-spacing:-.035em;line-
 .needs h3{font-size:clamp(19px,1.8vw,22px);letter-spacing:-.025em}
 
 .needs p{font-size:17px;line-height:1.65}
-.needs a{color:var(--copper-ink);text-underline-offset:3px;text-decoration-thickness:1px}
+.needs a{color:var(--copper-ink);text-underline-offset:3px;text-decoration-thickness:1px;white-space:nowrap}
 @media (prefers-reduced-motion:no-preference){
   .js .needs.swap li{animation:rowin .6s var(--ease) both;animation-delay:calc(var(--n,0) * 60ms)}
 }
