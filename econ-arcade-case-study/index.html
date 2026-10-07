@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case study: the DRS Econ Arcade | David Bassin</title>
+<meta name="description" content="How a high school teacher built seven AP Macroeconomics review games with AI tools: the problem, the design choices, how students use it, and how it protects student privacy.">
+<meta name="author" content="David Bassin">
+<link rel="canonical" href="https://dbassin12.github.io/econ-arcade-case-study/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dbassin12.github.io/econ-arcade-case-study/">
+<meta property="og:title" content="Case study: the DRS Econ Arcade | David Bassin">
+<meta property="og:description" content="How a high school teacher built seven AP Macroeconomics review games with AI tools: the problem, the design choices, how students use it, and how it protects student privacy.">
+<meta property="og:image" content="https://dbassin12.github.io/img/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2A2530">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='15' fill='%232A2530'/><circle cx='16' cy='16' r='13' fill='none' stroke='%23C07842' stroke-width='1.5'/><text x='16' y='21' font-size='16' font-weight='700' font-family='sans-serif' text-anchor='middle' fill='%23FDFCF9'>B</text></svg>" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/page.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="nav">
+  <div class="wrap">
+    <a class="wordmark" href="../" aria-label="David Bassin, portfolio home">DAVID BASSIN</a>
+    <nav aria-label="Main">
+      <ul>
+        <li class="hide-sm"><a href="../#ap-macro">Work</a></li>
+        <li class="hide-sm"><a href="../#how">How I work</a></li>
+        <li><a class="navbtn" href="../David_Bassin_Resume.pdf">Resume</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <header class="doc-head">
+    <div class="wrap narrow">
+      <p class="label">Case study</p>
+      <h1>The DRS Econ Arcade</h1>
+      <p class="lede">Seven review games for AP Macroeconomics that I built with AI tools for my own seniors. They play the games before tests, in class on the projector, and at home.</p>
+      <ul class="meta"><li>AP Macroeconomics</li><li>Grade 12</li><li>7 games</li><li>Works on phones</li><li>No accounts</li></ul>
+    </div>
+  </header>
+  <article class="doc">
+    <div class="wrap narrow">
+      <section>
+        <h2>The problem</h2>
+        <p>Three things kept coming up in my AP Macroeconomics class.</p>
+        <ul class="ticks">
+          <li><strong>Graph shifts cost points.</strong> Students mix up which curve moves, which way it moves, and the sentence that explains why. That sentence is what earns the point on the exam.</li>
+          <li><strong>Review days felt flat.</strong> A worksheet of practice graphs does not hold a room of seniors.</li>
+          <li><strong>Practice stopped at the bell.</strong> Students needed a way to keep practicing at home, on their own phones.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Who it is for</h2>
+        <p>My AP Macro seniors, on their own phones and on shared Chromebooks, and the whole class together on the projector.</p>
+      </section>
+
+      <section>
+        <h2>What I built</h2>
+        <p>Seven short games, each aimed at a skill the exam grades. I made them with AI tools and checked every question and every explanation myself.</p>
+        <figure class="shot"><img src="../img/arcade-screens.webp" srcset="../img/arcade-screens-800.webp 800w, ../img/arcade-screens.webp 1400w" sizes="(max-width: 640px) calc(100vw - 40px), 732px" width="1400" height="875" alt="Two screens from the DRS Econ Arcade on a phone: the game list with Shift Happens, and Fed Chair asking you to pick a crisis from 1975, 1980, or 2008" loading="lazy" decoding="async"></figure>
+        <p class="cap">The game list, and Fed Chair asking which crisis to run.</p>
+        <table class="table">
+          <thead><tr><th>Game</th><th>What students do</th></tr></thead>
+          <tbody>
+            <tr><td>Shift Happens</td><td>Read a headline and drag the curve it moves, from <span class="nw">AD-AS</span> to the Phillips curve.</td></tr>
+            <tr><td>Fed Chair</td><td>Run the Fed in 1975, 1980, 2008, or 2021: set the rate, then live with the lag.</td></tr>
+            <tr><td>Graph Doctor</td><td>Find the planted mistakes on a drawn graph before the clock runs out.</td></tr>
+            <tr><td>Sort Circuit</td><td>Sort cards into the right bins, from what counts in GDP to the balance of payments.</td></tr>
+            <tr><td>Calc Blitz</td><td>Dial in the number the exam wants, from the CPI to the money multiplier.</td></tr>
+            <tr><td>The Investor</td><td>Start with $10,000 for twelve quarters: read the Fed, split the money, and keep its real value.</td></tr>
+            <tr><td>Crisis Country</td><td>Play policy cards as finance minister to steady a country in trouble before the election.</td></tr>
+          </tbody>
+        </table>
+        <div class="links" style="margin-top:12px"><a class="textlink" href="https://dbassin12.github.io/drs-econ-arcade/">Open the Econ Arcade</a><a class="textlink" href="https://dbassin12.github.io/drs-econ-arcade/games/shift-happens.html">Play Shift Happens</a></div>
+      </section>
+
+      <section>
+        <h2>Design choices</h2>
+        <div class="grid2">
+          <div class="card"><h3>The why after every answer</h3><p>Right or wrong, students see one sentence written the way it would earn the point on the free-response section. They practice the exam's language, not just the answer.</p></div>
+          <div class="card"><h3>Headlines from home</h3><p>Many cards are set in places my students know, like Woodmere, Lawrence, and Central Avenue, so the economics happens somewhere real.</p></div>
+          <div class="card"><h3>A map of what to study</h3><p>A readiness panel shows each student a heat map of the six units, their weakest topic, and the level to play next. A readiness code goes into Schoology.</p></div>
+          <div class="card"><h3>Built for the room too</h3><p>Arcade Night puts the game on the projector in big type for whole-class review. A read-aloud voice and a glossary of exam terms help every student keep up.</p></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>How students use it</h2>
+        <ul class="ticks">
+          <li><strong>Before unit tests,</strong> as review.</li>
+          <li><strong>In class,</strong> on the projector in Arcade Night mode.</li>
+          <li><strong>At home,</strong> on their own, as extra practice.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>What I have seen, and what I changed</h2>
+        <p>Students ask for more games and more levels. I made it work better on phones.</p>
+      </section>
+
+      <section>
+        <h2>Student privacy</h2>
+        <div class="card dark">
+          <p>No accounts. Scores stay on each student's device. The class leaderboard stays off unless a teacher sets it up. Then it sends three initials, the game, the level, the score, and the student's arcade title and points to a Google Sheet the teacher owns. No names and no emails. Otherwise the pages load only their own files and Google Fonts.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>What I would do next</h2>
+        <p>Write a teacher guide for each game, so another AP teacher can pick one up and run it in a single class. The first one is for Shift Happens.</p>
+        <div class="links"><a class="textlink" href="../shift-happens-guide/">Read the Shift Happens guide</a></div>
+      </section>
+    </div>
+  </article>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <a href="../">Back to David Bassin's portfolio</a>
+    <a href="mailto:davidbassin12@gmail.com">davidbassin12@gmail.com</a>
+    <a class="wordmark" href="../">DAVID BASSIN</a>
+  </div>
+</footer>
+</body>
+</html>
